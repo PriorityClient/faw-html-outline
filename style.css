@@ -108,7 +108,9 @@ textarea {
   color: rgb(112,112,112);
   border-bottom: 1px solid rgb(227, 226, 226);
 }
-
+.nav-menu__header-item__icon {
+  margin-right: 1em;
+}
 .nav-menu__header-item {
   text-transform: uppercase;
   font-weight: bold;
@@ -116,6 +118,9 @@ textarea {
   padding-bottom: 0.5em;
   border-left: 0.5em solid rgb(255, 255, 255);
   padding-left: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav-menu__header-item--selected {
@@ -192,6 +197,9 @@ textarea {
 }
 .horizontal-group--align-center {
   align-items: center;
+}
+.horizontal-group--justify-left {
+  justify-content: flex-start;
 }
 
 .vertical-group {

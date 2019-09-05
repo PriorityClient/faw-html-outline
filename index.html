@@ -10,14 +10,14 @@
         <img class="text--centered" src="faw-logo.png" alt="Find A Wrench Logo" />
       </div>
       <div class="nav-menu">
-        <div class="nav-menu__header-item nav-menu__header-item--selected">Current Jobs</div>
+        <div class="nav-menu__header-item nav-menu__header-item--selected"><span>Current Jobs</span> <i class="nav-menu__header-item__icon icon-chevron-up"></i></div>
         <ul class="nav-menu__sub-menu nav-sub-menu nav-sub-menu--selected">
           <li class="nav-sub-menu__item nav-sub-menu__item--selected">Automotive Technician</li>
           <li class="nav-sub-menu__item">Diesel Mechanic</li>
         </ul>
-        <div class="nav-menu__header-item">Completed Jobs</div>
-        <div class="nav-menu__header-item">Garage Tools</div>
-        <div class="nav-menu__header-item">Support</div>
+        <div class="nav-menu__header-item"><span>Completed Jobs</span></div>
+        <div class="nav-menu__header-item"><span>Garage Tools</span></div>
+        <div class="nav-menu__header-item"><span>Support</span></div>
       </div>
     </aside>
     <main class="app-container__app-body app-body">
@@ -134,7 +134,11 @@
               <thead>
                 <tr>
                   <th>Name</th>
-                  <th>Applied Date</th>
+                  <th>
+                    <div class="horizontal-group horizontal-group--justify-left">
+                      <span>Applied Date</span>
+                      <i class="text--primary text--big icon-arrow-up-c"></i></th>
+                    </div>
                   <th>Resume</th>
                   <th>Notes</th>
                   <th>Last Activity Date</th>
